@@ -1,4 +1,4 @@
-# Find the bug - Hard Mode
+# Find the bug
 
 ### Set up CopilotKit for development
 
@@ -31,4 +31,4 @@ navigate to /home and then alert the path
 
 Observe that the path is updated, but CopilotKit doesn't alert the path.
 
-Good luck!
+This is hard - good luck!
