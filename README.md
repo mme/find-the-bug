@@ -4,21 +4,20 @@
 
 (make sure you have pnpm and turbo installed)
 
+In one terminal (keep it open), run:
+
 ```
 cd CopilotKit/CopilotKit
 pnpm i
-pnpm -w freshbuild
-turbo link:global
 turbo run dev
 ```
 
-### Set up the demo app for development
+In the other terminal (keep this process running):
 
 ```
-cd my-app
+cd CopilotKit/CopilotKit/examples/next-openai
 pnpm i
-pnpm link --global @copilotkit/react-ui @copilotkit/react-core @copilotkit/runtime-client-gql @copilotkit/shared @copilotkit/runtime
-pnpm run dev
+pnpm run example-dev
 ```
 
 ### The bug

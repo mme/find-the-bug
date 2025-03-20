@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export default function Home() {
   return (
-    <CopilotKit runtimeUrl="/api/copilotkit">
+    <CopilotKit runtimeUrl="/api/copilotkit" showDevConsole={false}>
       <Head>
         <title>CopilotKit - Find the Bug - hard mode</title>
       </Head>
@@ -30,7 +30,7 @@ function TestNavigation() {
     },
   });
   if (path === "") {
-    return <div>Test Navigation (no path)</div>;
+    return <div style={{ color: "white" }}>Test Navigation (no path)</div>;
   } else {
     return <Path path={path} />;
   }
@@ -45,5 +45,5 @@ function Path({ path }: { path: string }) {
     },
   });
 
-  return <div>Path: {path}</div>;
+  return <div style={{ color: "white" }}>Path: {path}</div>;
 }
