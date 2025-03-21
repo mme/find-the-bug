@@ -12,7 +12,9 @@ pnpm i
 turbo run dev
 ```
 
-In the other terminal (keep this process running):
+Wait for this to finish compiling.
+
+Then, in aother terminal (keep this process running too):
 
 ```
 cd CopilotKit/CopilotKit/examples/next-openai
