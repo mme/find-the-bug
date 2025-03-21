@@ -16,11 +16,12 @@ In the other terminal (keep this process running):
 
 ```
 cd CopilotKit/CopilotKit/examples/next-openai
-pnpm i
 pnpm run example-dev
 ```
 
 ### The bug
+
+Go to: http://localhost:3000/find-the-bug
 
 In the chat window, paste this:
 
